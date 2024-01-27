@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizGrad</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">QuizGrad</div>
+        <ul>
+            <li><a href="#" >How it works?</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <button class="login-button">Login</button>       
+    </nav>
+    <!-- Rest of your page content goes here -->
+    <div class="hero-section">
+        <div class="text-content">
+            <h1>Learn new concepts for each question</h1>
+            <p>We help you prepare for exams and quizzes</p>
+            <button id="startBtn">Start solving</button>
+        </div>
+        <div class="image-content">
+            <!-- Replace with your actual image file -->
+            <img src="assets/hero.png" class="Interactive Characters" width="550" height="550">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Choose your favorite topic</h2>
+            <p>Select more than 5 topics to start quiz</p>
+            <!-- Topic tags go here -->
+            <div class="topic-tags">
+                <!-- Example tags -->
+                <span class="tag" data-topic="Javascript">Javascript</span>
+                <span class="tag" data-topic="DOM">DOM</span>
+                <span class="tag" data-topic="CSS">CSS</span>
+                <span class="tag" data-topic="Promises">Promises</span>
+                <span class="tag" data-topic="React">React</span>
+                <span class="tag" data-topic="HTML">HTML</span>
+                <!-- Add more tags here -->
+            </div>
+            <p></p>
+            <button id="startQuiz">Start Quiz</button>
+        </div>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+</html>
+

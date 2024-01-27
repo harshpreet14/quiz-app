@@ -1,0 +1,153 @@
+[
+    {
+        "category": "Javascript",
+        "questions": [
+            {
+                "question": "What is the result of 2 + 2 in JavaScript?",
+                "options": ["3", "4", "5", "6"],
+                "answer": "4"
+            },
+            {
+                "question": "How do you declare a variable in JavaScript?",
+                "options": ["var", "let", "const", "variable"],
+                "answer": "var"
+            },
+            {
+                "question": "What is a closure in JavaScript?",
+                "options": ["A function inside another function", "An object with key-value pairs", "A loop that never ends", "A condition that is always true"],
+                "answer": "A function inside another function"
+            },
+            {
+                "question": "What is the typeof operator used for in JavaScript?",
+                "options": ["Checking if a variable exists", "Determining the type of a variable", "Converting a string to a number", "Creating a new object"],
+                "answer": "Determining the type of a variable"
+            }
+        ]
+    },
+    {
+        "category": "DOM",
+        "questions": [
+            {
+                "question": "What does DOM stand for?",
+                "options": ["Document Object Model", "Data Object Model", "Dynamic Object Model", "Digital Object Model"],
+                "answer": "Document Object Model"
+            },
+            {
+                "question": "How do you select an element by its ID in the DOM?",
+                "options": ["document.getElementByTagName", "document.getElementById", "document.selectElementById", "document.getElementByName"],
+                "answer": "document.getElementById"
+            },
+            {
+                "question": "Which DOM method is used to add an HTML element?",
+                "options": ["appendHTML", "insertHTML", "addElement", "appendChild"],
+                "answer": "appendChild"
+            },
+            {
+                "question": "What is the DOMContentLoaded event used for?",
+                "options": ["To check if an image is loaded", "To execute JavaScript after the DOM is fully loaded", "To display a loading spinner", "To stop the DOM from loading"],
+                "answer": "To execute JavaScript after the DOM is fully loaded"
+            }
+        ]
+    },
+    {
+        "category": "CSS",
+        "questions": [
+            {
+                "question": "What does CSS stand for?",
+                "options": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+                "answer": "Cascading Style Sheets"
+            },
+            {
+                "question": "How do you select all <p> elements with class 'highlight' in CSS?",
+                "options": ["p.highlight", ".highlight p", "p .highlight", ".highlight > p"],
+                "answer": "p.highlight"
+            },
+            {
+                "question": "What property is used to change the text color in CSS?",
+                "options": ["background-color", "text-color", "color", "font-color"],
+                "answer": "color"
+            },
+            {
+                "question": "Which CSS property is used for controlling the layout of elements?",
+                "options": ["display", "position", "layout", "style"],
+                "answer": "display"
+            }
+        ]
+    },
+    {
+        "category": "React",
+        "questions": [
+            {
+                "question": "What is React?",
+                "options": ["A JavaScript library for building user interfaces", "A programming language", "A database management system", "A web browser"],
+                "answer": "A JavaScript library for building user interfaces"
+            },
+            {
+                "question": "In React, how do you render a component?",
+                "options": ["Using the render() method", "Using the renderComponent() function", "Using the displayComponent() method", "Using the renderComponent() method"],
+                "answer": "Using the render() method"
+            },
+            {
+                "question": "What is JSX in React?",
+                "options": ["A JavaScript extension for building UI components", "A styling language for React", "A routing library for React", "A data fetching library for React"],
+                "answer": "A JavaScript extension for building UI components"
+            },
+            {
+                "question": "What is a React state?",
+                "options": ["A variable that holds a single value", "A data structure for storing multiple values", "A special component in React", "A function for updating the DOM"],
+                "answer": "A variable that holds a single value"
+            }
+        ]
+    },
+    {
+        "category": "Promises",
+        "questions": [
+            {
+                "question": "What are Promises in JavaScript used for?",
+                "options": ["Handling asynchronous operations", "Styling web pages", "Creating loops", "Parsing JSON"],
+                "answer": "Handling asynchronous operations"
+            },
+            {
+                "question": "Which method is used to handle the result of a resolved Promise?",
+                "options": ["then()", "catch()", "finally()", "resolve()"],
+                "answer": "then()"
+            },
+            {
+                "question": "What is the purpose of the catch() method in Promises?",
+                "options": ["To handle a rejected Promise", "To handle a resolved Promise", "To create a new Promise", "To chain multiple Promises"],
+                "answer": "To handle a rejected Promise"
+            },
+            {
+                "question": "What is Promise.all() used for?",
+                "options": ["To create a new Promise", "To handle errors in Promises", "To wait for all Promises to resolve", "To reject all Promises"],
+                "answer": "To wait for all Promises to resolve"
+            }
+        ]
+    },
+    {
+        "category": "HTML",
+        "questions": [
+            {
+                "question": "What does HTML stand for?",
+                "options": ["Hyper Text Markup Language", "Hyperlink and Text Markup Language", "Highly Textual Markup Language", "Hypertext Transfer Markup Language"],
+                "answer": "Hyper Text Markup Language"
+            },
+            {
+                "question": "Which HTML element is used for creating a hyperlink?",
+                "options": ["<link>", "<a>", "<href>", "<hyperlink>"],
+                "answer": "<a>"
+            },
+            {
+                "question": "What is the correct HTML for adding a line break?",
+                "options": ["<lb>", "<line-break>", "<br>", "<break>"],
+                "answer": "<br>"
+            },
+            {
+                "question": "Which HTML tag is used for creating an ordered list?",
+                "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+                "answer": "<ol>"
+            }
+        ]
+    }
+]
+

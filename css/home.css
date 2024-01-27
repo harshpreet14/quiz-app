@@ -1,0 +1,176 @@
+/* Add a Google Font link for Poppins in your HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Adjust the background color if needed */
+  padding: 20px 50px;
+  border-bottom: 1px solid #cccccc
+}
+
+/* Logo Style - adjust the width as needed or add an image */
+.logo {
+  font-size: 30px; /* Adjust the font-size as needed */
+  font-weight: 600; /* Adjust for the weight of the font */
+  color: #333; /* Adjust to match your actual logo color */
+}
+
+/* Navigation links styles */
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  padding: 0 15px; /* Adjust the padding as needed */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #999; /* Adjust to the color of your choice */
+  font-weight: 400;
+}
+
+/* Active link or Hover styles */
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #333; /* Darker color on hover or for the active page */
+}
+
+/* Login Button Style */
+.login-button {
+  border: 1px solid #FCC822; 
+  background-color: #fff; /* Text color */ /* Remove default border */
+  padding: 8px 20px; /* Adjust padding to match your design */
+  font-weight: 500;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  font-size: 16px;
+  color:#FCC822;
+  font-family: 'Poppins'
+}
+
+.login-button:hover {
+  background-color: #fde896; /* Slightly darker yellow on hover */
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 20px; /* Or adjust based on your header's height */
+}
+
+.text-content {
+    flex-basis: 50%; /* Adjust the width as necessary */
+    padding: 20px; /* Provides some space inside the text container */
+    text-align: left;
+    font-size: 28px;
+}
+
+.image-content {
+    flex-basis: 50%; /* Adjust the width as necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add styles for h1, p, and button as per your design requirements */
+h1 {
+    font-size: 2em; /* Example size, adjust as needed */
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #FCC822; /* Adjust to match the exact shade of yellow in the image */
+    color: #fff; /* Change the text color if needed */
+    border: none;
+    padding: 12px 24px; /* Adjust padding to match the size in the image */ /* Increase for more rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px; /* Adjust if the text size is different */ /* If the button text is uppercase */
+    box-shadow: 0px 4px 8px rgba(228, 211, 81, 0.2); /* Adjust the shadow to match the image */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #e6b700; /* A darker yellow for hover state */
+    box-shadow: 0px 6px 12px rgba(208, 201, 98, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  height: 60%;
+  width: 80%; /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tag {
+  display: inline-block;
+  background: #e4e4e4;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add more styles for buttons and tags as needed */
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .text-content, .image-content {
+        flex-basis: auto;
+    }
+}
